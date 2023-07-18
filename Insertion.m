@@ -77,8 +77,6 @@ end
 solution=sol/a1
 end
            
-
-
 function B = particiones(n)
 L=[];
 
@@ -93,7 +91,6 @@ for k_0=0:n
 end
 B =L;
 end
-
 
 function A = deltakronecker(n,m)
 if n==m
