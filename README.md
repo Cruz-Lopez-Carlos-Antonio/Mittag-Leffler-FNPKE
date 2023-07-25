@@ -19,5 +19,6 @@ $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{
 # General description of the solution
 In the submitted paper is showed that the system given in Eq. (1) and Eq.(2) can be written as:
 $$n\left(t\right)=b_1G_{m_1,Y_1,\delta}\left(t\right)+b_2G_{m_2,Y_2,\delta}\left(t\right)+b_3G_{m_3,Y_3,\delta}(t)$$
+$$+b_4G_{m_4,Y_4,\delta}\left(t\right)+b_5G_{m_5,Y_5,\delta}(t)$$
 
 
