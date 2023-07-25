@@ -13,6 +13,6 @@ $$\frac{dC\left(t\right)}{dt}=\frac{\beta}{\Lambda}n\left(t\right)-\lambda\ C(t)
 where: $$\tau_{\alpha}, n(t),\rho, \alpha, P_{NL} \tag{3}$$ are the fractional relaxation time, the neutron density, the reactivity (assummed constant), the fractional order and the nonleakage probability, respectively. And:
  $$C(t), \beta, \Lambda, \lambda \tag{4}$$
 are the concentration, the fraction and the decay of the precursors of the delayed neutrons. On the other hand, the following operations:
-
+$$D_C^\alpha\circ\ n\left(t\right),\ \ D_C^\alpha\circ\ C\left(t\right)\ \tag{5} $$
 
 
