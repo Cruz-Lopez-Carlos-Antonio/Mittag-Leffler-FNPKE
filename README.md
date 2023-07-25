@@ -21,6 +21,6 @@ In the submitted paper is showed that the solution of the system given in Eq. (1
 $$n\left(t\right)=b_1G_{m_1,Y_1,\delta}\left(t\right)+b_2G_{m_2,Y_2,\delta}\left(t\right)+b_3G_{m_3,Y_3,\delta}(t)$$
 $$+b_4G_{m_4,Y_4,\delta}\left(t\right)+b_5G_{m_5,Y_5,\delta}(t) \tag{6},$$
 $$C\left(t\right)=h_1G_{6,\Omega_1,\Psi}\left(t\right)+h_2G_{6,\Omega_2,\Psi}\left(t\right)+h_3G_{6,\Omega_3,\Psi}(t)$$
-$$+h_4G_{6,\Omega_4,\Psi}\left(t\right)+h_5G_{6,\Omega_5,\Psi}\left(t\right)+C\left(0\right)\exp\(-\lambda\ t)$$
+$$+h_4G_{6,\Omega_4,\Psi}\left(t\right)+h_5G_{6,\Omega_5,\Psi}\left(t\right)+C\left(0\right)\exp\(-\lambda\ t) \tag{7}$$
 
 
