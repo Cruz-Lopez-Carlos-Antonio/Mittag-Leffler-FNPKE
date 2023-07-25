@@ -18,8 +18,7 @@ represent the application of the fractional derivative operator, of the Caputo's
 $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{f^{\left(n\right)}\left(\tau\right)\left(t-\tau\right)^{n-\alpha-1}d\tau \tag{5}}$$
 # General description of the solution
 In the submitted paper is showed that the analytical solution of the neutron density of the system given in Eq. (1) and (2) can be written as:
-$$n\left(t\right)=b_1G_{m_1,Y_1,\delta}\left(t\right)+b_2G_{m_2,Y_2,\delta}\left(t\right)+b_3G_{m_3,Y_3,\delta}(t)$$
-$$+b_4G_{m_4,Y_4,\delta}\left(t\right)+b_5G_{m_5,Y_5,\delta}(t) \tag{6},$$
+$$n\left(t\right)=\sum_{j=1}^{5}{b_jG_{4,Y_j,\delta}(t)}$$
 and the analytical solution of the precursor of the delayed neutron as:
 $$C\left(t\right)=h_1G_{6,\Omega_1,\Psi}\left(t\right)+h_2G_{6,\Omega_2,\Psi}\left(t\right)+h_3G_{6,\Omega_3,\Psi}(t)$$
 $$+h_4G_{6,\Omega_4,\Psi}\left(t\right)+h_5G_{6,\Omega_5,\Psi}\left(t\right)+C\left(0\right)\exp\(-\lambda\ t) \tag{7}$$
