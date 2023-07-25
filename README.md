@@ -20,9 +20,8 @@ $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{
 In the submitted paper is showed that the analytical solution of the neutron density of the system given in Eq. (1) and (2) can be written as:
 $$n\left(t\right)=\sum_{j=1}^{5}{b_jG_{4,Y_j,\delta}(t)}$$
 and the analytical solution of the precursor of the delayed neutron as:
-$$C\left(t\right)=h_1G_{6,\Omega_1,\Psi}\left(t\right)+h_2G_{6,\Omega_2,\Psi}\left(t\right)+h_3G_{6,\Omega_3,\Psi}(t)$$
 
-$$C\left(t\right)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp\funcapply(-\lambda\ t)$$
+$$C\left(t\right)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp(-\lambda\ t)$$
 where the numbers:
 
 
