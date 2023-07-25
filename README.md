@@ -7,6 +7,5 @@ Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Par
 
 # Mathematical description of the problem
 The codes solves the following fractional differential equation system:
-$$\int\frac{e^{2x}dx}{e^{3x}+1}=\sum_{k=0}^{\infty}\left(-1\right)^k\int{e^{2x}e^{3xk}dx}$$
-
+$$\tau_\alpha D_C^{\alpha+1}\circ\ n\left(t\right)+\frac{dn\left(t\right)}{dt}+\tau_\alpha\left[\frac{P_{NL}\left(1-\rho\right)-1+\beta}{\Lambda}\right]D_C^\alpha\circ n(t)$$
 
