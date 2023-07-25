@@ -16,3 +16,6 @@ are the concentration, the fraction and the decay of the precursors of the delay
 $$D_C^\alpha\circ\ n\left(t\right),\ \ D_C^\alpha\circ\ C\left(t\right)\ \tag{5} $$
 represent the application of the fractional derivative operator, of the Caputo's type, defined as:
 $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{f^{\left(n\right)}\left(\tau\right)\left(t-\tau\right)^{n-\alpha-1}d\tau \tag{5}}$$
+# General description of the solution
+In the submitted paper is showed that the system given in Eq. (1) and Eq.(2) can be written as:
+
