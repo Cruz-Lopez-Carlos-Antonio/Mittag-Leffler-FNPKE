@@ -14,5 +14,5 @@ where: $$\tau_{\alpha}, n(t),\rho, \alpha, P_{NL} \tag{3}$$ are the fractional r
  $$C(t), \beta, \Lambda, \lambda \tag{4}$$
 are the concentration, the fraction and the decay of the precursors of the delayed neutrons. On the other hand, the following operations:
 $$D_C^\alpha\circ\ n\left(t\right),\ \ D_C^\alpha\circ\ C\left(t\right)\ \tag{5} $$
-
+represent the application of the fractional derivative operator, of the Caputo's type, defined as:
 
