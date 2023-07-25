@@ -23,5 +23,7 @@ $$+b_4G_{m_4,Y_4,\delta}\left(t\right)+b_5G_{m_5,Y_5,\delta}(t) \tag{6},$$
 and the analytical solution of the precursor of the delayed neutron as:
 $$C\left(t\right)=h_1G_{6,\Omega_1,\Psi}\left(t\right)+h_2G_{6,\Omega_2,\Psi}\left(t\right)+h_3G_{6,\Omega_3,\Psi}(t)$$
 $$+h_4G_{6,\Omega_4,\Psi}\left(t\right)+h_5G_{6,\Omega_5,\Psi}\left(t\right)+C\left(0\right)\exp\(-\lambda\ t) \tag{7}$$
+where the numbers:
+
 
 
