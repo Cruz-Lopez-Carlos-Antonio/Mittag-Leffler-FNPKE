@@ -23,6 +23,7 @@ and the analytical solution of the precursor of the delayed neutron as:
 
 $$C\left(t\right)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp(-\lambda\ t)$$
 where the numbers:
+$$b_j,\ h_j,\ 1\le\ j\le5$$
 
 
 
