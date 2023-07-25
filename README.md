@@ -5,6 +5,7 @@ The programs are licensed under a Creative Commons Attribution 4.0 International
 
 Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Paredes (gepe@xanum.uam.mx)
 
-# Mittag-Leffler-FNPKE Sectuib
+# Analytical solution for reactivity insertions.
+The code 
 
 
