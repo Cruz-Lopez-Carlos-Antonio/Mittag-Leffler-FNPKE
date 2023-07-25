@@ -5,7 +5,7 @@ The programs are licensed under a Creative Commons Attribution 4.0 International
 
 Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Paredes (gepe@xanum.uam.mx)
 
-# Analytical solution for reactivity insertions.
+# General mathematical aspects of the solutions
 The codes solves the following fractional differential equation system:
 $$\int\frac{e^{2x}dx}{e^{3x}+1}=\sum_{k=0}^{\infty}\left(-1\right)^k\int{e^{2x}e^{3xk}dx}$$
 
