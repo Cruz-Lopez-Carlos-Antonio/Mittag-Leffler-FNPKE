@@ -18,4 +18,6 @@ represent the application of the fractional derivative operator, of the Caputo's
 $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{f^{\left(n\right)}\left(\tau\right)\left(t-\tau\right)^{n-\alpha-1}d\tau \tag{5}}$$
 # General description of the solution
 In the submitted paper is showed that the system given in Eq. (1) and Eq.(2) can be written as:
+$$n\left(t\right)=b_1G_{m_1,Y_1,\delta}\left(t\right)+b_2G_{m_2,Y_2,\delta}\left(t\right)+b_3G_{m_3,Y_3,\delta}(t)$$
+
 
