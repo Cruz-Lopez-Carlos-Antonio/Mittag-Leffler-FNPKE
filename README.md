@@ -26,6 +26,7 @@ where the numbers:
 $$b_j,\ h_j,\ 1\le\ j\le5 \tag{9}$$
 are constants whose value depends on the initial conditions as well as on nuclear parameter. On the other hand, the sets:
 $$Y_j=\left\{y_{j,1},y_{j,2,\ }\ldots,\ y_{y,5}\right\},\ \Omega_j=\left\{\omega_{j,1},\ \omega_{j,2},\ldots,\omega_{j,5}\right\}$$
+$$\delta=\left\{a_1,a_2,\ldots,a_5\right\}\ \mathrm{and}\ \ \Upsilon=\left\{c_1,c_2,\ldots,c_6\right\}$$
 
 are defined in terms of the fractional orders and the nuclear parameter. 
 
