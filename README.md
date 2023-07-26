@@ -29,4 +29,6 @@ $$Y_j=\left\{y_{j,1},y_{j,2,\ }\ldots,\ y_{y,5}\right\},\ \Omega_j=\left\{\omega
 $$\delta=\left\{a_1,a_2,\ldots,a_5\right\}\ \mathrm{and}\ \ \Upsilon=\left\{c_1,c_2,\ldots,c_6\right\}$$
 
 are defined in terms of the fractional orders and the nuclear parameter. 
-
+DEDED
+DEDEDE
+DEDE
