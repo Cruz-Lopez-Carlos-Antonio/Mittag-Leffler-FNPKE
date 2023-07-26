@@ -17,7 +17,7 @@ $$D_C^\alpha\circ\ n\left(t\right),\ \ D_C^\alpha\circ\ C\left(t\right)\ \tag{5}
 represent the application of the fractional derivative operator, of the Caputo's type, defined as:
 $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{f^{\left(n\right)}\left(\tau\right)\left(t-\tau\right)^{n-\alpha-1}d\tau \tag{6}}$$
 # General description of the solution
-In the submitted paper is showed that the analytical solution of the neutron density of the system given in Eq. (1) and (2) can be written as:
+As it is showed in the submitted paper, the analytical solution of the neutron density of the system given in Eq. (1) and (2) can be written as:
 $$n\left(t\right)=\sum_{j=1}^{5}{b_jG_{4,Y_j,\delta}(t)} \tag{7}$$
 and the analytical solution of the precursor of the delayed neutron as:
 
@@ -32,7 +32,7 @@ are defined in terms of the fractional orders and the nuclear parameter. See the
 $$G_{n,\Psi,\delta}\left(t\right)=\frac{1}{a_n}\sum_{m=0}^{\infty}\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}\frac{m!}{k_0!k_1!\cdots k_{n-2}!}$$
 $$\times\prod_{i=0}^{n-2}{\left(\frac{a_i}{a_n}\right)^{k_i}t^{\left(\phi_n-\phi_{n-1}\right)m+\phi_n+S-1}}$$
 $$\times\ E_{\phi_n-\phi_{n-1},\phi_n+S}^{\left(m\right)}\left(-\frac{a_{n-1}}{a_n}t^{\phi_n-\phi_{n-1}}\right) \tag{11}$$
-is known as the Green Function [1, p.158] [2,p.225], where the m-derivative of the Mittag-Leffler function, defined as:
+is known as the Green Function [1, p.158] [2,p.225], which in turn includes the the m-derivative of the Mittag-Leffler function, defined as:
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=\sum_{k=0}^{\infty}\frac{\left(m+k\right)!z^k}{k!\Gamma(\alpha\left(m+k\right)+\beta)}$$,
 appears, and where:
 
