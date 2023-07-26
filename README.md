@@ -25,6 +25,7 @@ $$C\left(t\right)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp(-\lambda\ 
 where the numbers:
 $$b_j,\ h_j,\ 1\le\ j\le5 \tag{9}$$
 are constants whose value depends on the initial conditions as well as on nuclear parameter. On the other hand, the sets:
+$$Y_j=\left\{y_{j,1},y_{j,2,\ }\ldots,\ y_{y,5}\right\},\ \Omega_j=\left\{\omega_{j,1},\ \omega_{j,2},\ldots,\omega_{j,5}\right\}$$
 
 
 
