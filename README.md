@@ -30,8 +30,8 @@ $$Y_j=\set{y_{j,1},y_{j,2,} \ldots,\ y_{j,5}}, \Omega_j=\set{\omega_{j,1}, \omeg
 $$\delta=\set{a_1,a_2,\ldots,a_5}\ \mathrm{and}\ \ \Upsilon=\set{c_1,c_2,\ldots,c_6} \tag{10}$$
 are defined in terms of the fractional orders and the nuclear parameter. See the article for a full decription of such coefficients. Finally, the following function:
 $$G_{n,\Psi,\delta}\left(t\right)=\frac{1}{a_n}\sum_{m=0}^{\infty}\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}\frac{m!}{k_0!k_1!\cdots k_{n-2}!}$$
-$$\times\prod_{i=0}^{n-2}{\left(\frac{d_i}{d_n}\right)^{k_i}t^{\left(\phi_n-\phi_{n-1}\right)m+\phi_n+S-1}}$$
-$$\times\ E_{\phi_n-\phi_{n-1},\phi_n+S_j}^{\left(m\right)}\left(-\frac{d_{n-1}}{d_n}t^{\phi_n-\phi_{n-1}}\right) \tag{11}$$
+$$\times\prod_{i=0}^{n-2}{\left(\frac{a_i}{a_n}\right)^{k_i}t^{\left(\phi_n-\phi_{n-1}\right)m+\phi_n+S-1}}$$
+$$\times\ E_{\phi_n-\phi_{n-1},\phi_n+S}^{\left(m\right)}\left(-\frac{a_{n-1}}{a_n}t^{\phi_n-\phi_{n-1}}\right) \tag{11}$$
 is known as the Green Function [1, p.158] [2,p.225], where the m-derivative of the Mittag-Leffler function, defined as:
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=\sum_{k=0}^{\infty}\frac{\left(m+k\right)!z^k}{k!\Gamma(\alpha\left(m+k\right)+\beta)}$$,
 appears, and where:
