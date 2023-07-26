@@ -24,7 +24,7 @@ and the analytical solution of the precursor of the delayed neutron as:
 $$C(t)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp(-\lambda\ t) \tag{8}$$
 where the numbers:
 $$b_j,\ h_j,\ 1\le\ j\le5 \tag{9}$$
-are constants whose value depends on the initial conditions as well as on nuclear parameter. On the other hand, the sets:
+are constants whose value depends on the initial conditions as well as on nuclear parameters. On the other hand, the sets:
 
 $$Y_j=\set{y_{j,1},y_{j,2,} \ldots,\ y_{y,5}}, \Omega_j=\set{\omega_{j,1}, \omega_{j,2},\ldots,\omega_{j,5}}$$
 $$\delta=\set{a_1,a_2,\ldots,a_5}\ \mathrm{and}\ \ \Upsilon=\set{c_1,c_2,\ldots,c_6} \tag{10}$$
