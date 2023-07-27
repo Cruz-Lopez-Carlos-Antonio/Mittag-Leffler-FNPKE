@@ -69,7 +69,7 @@ The mentioned sets are built using the following function, which is included in 
 <p>
 
 
-```
+```MATLAB
 %------------ Partitions of integers for the neutron density------------
 %Section 5.1 of the paper
 %Input: a natural number, n
