@@ -7,7 +7,7 @@ Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Par
 
 Mathematical and algorithmical generalities of the codes are described in the following lines with the purpose to provide some insight of the developed work. Nevertheless, a more detailed and precise discussion is provided in the submitted article.
 
-## Mathematical description of the problem
+## 1. Mathematical description of the problem
 The following fractional differential equation system is solved in the submitted paper:
 $$\tau_\alpha D_C^{\alpha+1}\circ\ n\left(t\right)+\frac{dn\left(t\right)}{dt}+\tau_\alpha\left[\frac{P_{NL}\left(1-\rho\right)-1+\beta}{\Lambda}\right]D_C^\alpha\circ n(t)$$
 $$=\frac{\rho-\beta}{\Lambda}n\left(t\right)+\tau_\alpha\lambda\ D_C^\alpha\circ\ C\left(t\right)+\lambda\ C\left(t\right),\tag{1}$$
@@ -18,7 +18,7 @@ are the concentration, the fraction and the decay of the precursors of the delay
 $$D_C^\alpha\circ\ n\left(t\right),\ \ D_C^\alpha\circ\ C\left(t\right)\ \tag{5} $$
 represent the application of the fractional derivative operator, of the Caputo's type, defined as:
 $$D_C^\alpha\circ\ f\left(t\right)=\frac{1}{\Gamma\left(n-1\right)}\int_{0}^{t}{f^{\left(n\right)}\left(\tau\right)\left(t-\tau\right)^{n-\alpha-1}d\tau \tag{6}}$$
-## General description of the solution
+## 2. General description of the solution
 As it is showed in the submitted paper, the analytical solution of the neutron density of the system given in Eq. (1) and (2) can be written as:
 $$n\left(t\right)=\sum_{j=1}^{5}{b_jG_{4,Y_j,\delta}(t)} \tag{7}$$
 and the analytical solution of the precursor of the delayed neutron as:
@@ -44,17 +44,17 @@ $$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{13}$$
 
 which, in turn allows defining the following sum:
 $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
-## Brief description of the developed algorithms
+## 3. Brief description of the developed algorithms
 The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8) using the MATLAB language. Such task can be divided in three parts: 
 1. Defining the constants of the sets given in terms of the nuclear reactor parameters.
 2. Computing the sets related to the partitions of the integers.
 3. Computing the 2-parameter Mittag-Leffler and its derivatives  
 
 The three points are discussed in the submitted paper in a detailed way. Some general aspects of the second and third steps are described in the following lines.
+### 3.1 Partitions of integers 
 <details><summary>EXPAND SECTION 3.1. Partitions of integers</summary>
 <p>
 
-#### We can hide anything, even code!
 
 ```ruby
    puts "Hello World"
