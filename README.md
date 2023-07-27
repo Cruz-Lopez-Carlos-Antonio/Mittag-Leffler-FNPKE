@@ -42,5 +42,8 @@ $$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{13}$$
 
 which, in turn allows defining the following sum:
 $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
+# General description of the code
+
+
 
 
