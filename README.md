@@ -35,8 +35,7 @@ $$\times\ E_{\phi_n-\phi_{n-1},\phi_n+S}^{\left(m\right)}\left(-\frac{a_{n-1}}{a
 is known as the Green Function [1, p.158] [2,p.225], which in turn includes the the m-derivative of the Mittag-Leffler function, defined as:
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=\sum_{k=0}^{\infty}\frac{\left(m+k\right)!z^k}{k!\Gamma(\alpha\left(m+k\right)+\beta)} \tag{12}$$,
 where the following set is included:
-
-$$\Psi={\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0}$$
+$$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0}$$
 
 
 
