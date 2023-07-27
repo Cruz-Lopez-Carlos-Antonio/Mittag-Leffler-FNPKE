@@ -47,6 +47,17 @@ $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
 ## Brief description of the developed algorithms
 The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8). Such task can be divided in three parts: defining the constants of the sets given in  
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+```ruby
+   puts "Hello World"
+```
+
+</p>
+</details>
 
 
 
