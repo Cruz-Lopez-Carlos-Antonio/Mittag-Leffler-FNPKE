@@ -58,6 +58,7 @@ $$\sum_{m=0}^{p}{\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}{f(k
 (where the function f represents the different operations that are carried out on the right of such equation), the set of different partitions:
 $$K_{n,m}=\set{(k_0,k_1,\ldots,k_{n-2}|k_i\geq0,\ 0\le\ i\le\ n,\ \sum_{j=0}^{n-2}k_j=m}\ \tag{16} $$
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
+dededede
 $$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{\left(-1\right)^p}{p!}\sum_{K_{n,m}}{f(K_{n,m})}$$
 
 
