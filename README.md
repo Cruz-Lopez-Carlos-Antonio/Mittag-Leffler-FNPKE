@@ -54,11 +54,12 @@ The three points are discussed in the submitted paper in a detailed way. Some ge
 ### 3.1 Partitions of integers 
 In order to optimize the way in which is computed the following sum:
 
-$$\sum_{k_1+k_2+\ldots+k_{n-2}=m}{f(k_1,k_2,\ldots,k_n)}$$
+$$\sum_{k_1+k_2+\ldots+k_{n-2}=m}{f(k_1,k_2,\ldots,k_n)\tag{15}}$$
 
 the set of different partitions:
-$$K_{n,m}=\set{(k_1,k_2,\ldots,k_{n-2}|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ $$
-is precomputed in the developed algorithm. 
+$$K_{n,m}=\set{(k_1,k_2,\ldots,k_{n-2}|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ \tag{16} $$
+is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
+
 
 
 
