@@ -56,8 +56,7 @@ In order to optimize the way in which is computed the following sum of the Eq. (
 $$\sum_{m=0}^{p}{\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}{f(k_0,k_2,\ldots,k_{n-2})}\ \tag{15}, }$$
 
 (where the function f represents the different operations that are carried out on the right of such equation, and p the approximation of the infinite sum) the set of different partitions:
-que pasa 
-que pasa que pasa
+
 $$K_{n,m}=\set{(k_0,k_1,\ldots,k_{n-2}|k_i\geq0,\ 0\le\ i\le\ n,\ \sum_{j=0}^{n-2}k_j=m}\ \tag{16}$$
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
 dededede
