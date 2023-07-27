@@ -45,9 +45,9 @@ $$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{13}$$
 which, in turn allows defining the following sum:
 $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
 ## Brief description of the developed algorithms
-The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8). Such task can be divided in three parts: defining the constants of the sets given in  
+The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8) using the MATLAB language. Such task can be divided in three parts: defining the constants of the sets given in terms of the nuclear parameters, 
 
-<details><summary>CLICK ME</summary>
+<details><summary>EXPAND SECTION 3.1</summary>
 <p>
 
 #### We can hide anything, even code!
