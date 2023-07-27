@@ -45,9 +45,13 @@ $$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{13}$$
 which, in turn allows defining the following sum:
 $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
 ## Brief description of the developed algorithms
-The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8) using the MATLAB language. Such task can be divided in three parts: defining the constants of the sets given in terms of the nuclear parameters, 
+The algorithms that are described in the submitted article have the purpose to compute the equations (7) and (8) using the MATLAB language. Such task can be divided in three parts: 
+1. Defining the constants of the sets given in terms of the nuclear reactor parameters.
+2. Computing the sets related to the partitions of the integers.
+3. Computing the 2-parameter Mittag-Leffler and its derivatives  
 
-<details><summary>EXPAND SECTION 3.1</summary>
+The first point is discussed in the submitted paper. Some main aspects of the two other steps are described in the following lines.
+<details><summary>EXPAND SECTION 3.1. Partitions of integers</summary>
 <p>
 
 #### We can hide anything, even code!
