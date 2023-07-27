@@ -53,8 +53,8 @@ The algorithms that are described in the submitted article have the purpose to c
 The three points are discussed in the submitted paper in a detailed way. Some general aspects of the second and third steps are described in the following lines.
 ### 3.1 Partitions of integers 
 In order to optimize the way in which is computed the following sum of the Eq. (11):
-
 $$\sum_{m=0}^{p}{\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}{f(k_0,k_2,\ldots,k_{n-2})}\ \tag{15}, }$$
+
 where the function f represents the different operations that are carried out on the right of such equation, the set of different partitions:
 que pasa 
 que pasa que pasa
