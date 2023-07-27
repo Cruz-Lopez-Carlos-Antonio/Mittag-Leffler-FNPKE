@@ -24,11 +24,11 @@ and the analytical solution of the precursor of the delayed neutron as:
 $$C(t)=\sum_{j=1}^{5}{h_jG_{6,\Omega_j,\delta}(t)}+C_0\exp(-\lambda\ t) \tag{8}$$
 where the numbers:
 $$b_j,\ h_j,\ 1\le\ j\le5 \tag{9}$$
-are constants whose value depends on the initial conditions as well as on nuclear parameters. On the other hand, the sets:
+are constants whose value depends on the initial conditions as well as on nuclear parameters, see the paper to more details. On the other hand, the sets:
 
 $$Y_j=\set{y_{j,1},y_{j,2,} \ldots,\ y_{j,5}}, \Omega_j=\set{\omega_{j,1}, \omega_{j,2},\ldots,\omega_{j,5}}$$
 $$\delta=\set{a_1,a_2,\ldots,a_5}\ \mathrm{and}\ \ \Upsilon=\set{c_1,c_2,\ldots,c_6} \tag{10}$$
-are defined in terms of the fractional orders and the nuclear parameter. See the article for a full decription of such coefficients. Finally, the following function:
+are defined in terms of the fractional orders and the nuclear parameter. Finally, the following function:
 $$G_{n,\Psi,\delta}\left(t\right)=\frac{1}{a_n}\sum_{m=0}^{\infty}\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}\frac{m!}{k_0!k_1!\cdots k_{n-2}!}$$
 $$\times\prod_{i=0}^{n-2}{\left(\frac{a_i}{a_n}\right)^{k_i}t^{\left(\phi_n-\phi_{n-1}\right)m+\phi_n+S-1}}$$
 $$\times\ E_{\phi_n-\phi_{n-1},\phi_n+S}^{\left(m\right)}\left(-\frac{a_{n-1}}{a_n}t^{\phi_n-\phi_{n-1}}\right) \tag{11}$$
@@ -42,7 +42,7 @@ $$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{13}$$
 
 which, in turn allows defining the following sum:
 $$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j} \tag{14}$$
-# General description of the code
+# General description of algorithmic implementation. 
 
 
 
