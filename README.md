@@ -50,7 +50,7 @@ The algorithms that are described in the submitted article have the purpose to c
 2. Computing the sets related to the partitions of the integers.
 3. Computing the 2-parameter Mittag-Leffler and its derivatives  
 
-The first point is discussed in the submitted paper. Some main aspects of the two other steps are described in the following lines.
+The three points are discussed in the submitted paper in a detailed way. Some general aspects of the second and third steps are described in the following lines.
 <details><summary>EXPAND SECTION 3.1. Partitions of integers</summary>
 <p>
 
