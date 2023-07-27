@@ -54,7 +54,7 @@ The three points are discussed in the submitted paper in a detailed way. Some ge
 ### 3.1 Partitions of integers 
 In order to optimize the way in which is computed the following sum of the Eq. (11):
 
-$$K_{n,m}=\left\{\left(k_0,k_1,\ldots,k_{n-2}\right)\right|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ $$
+$$\sum_{m=0}^{p}{\frac{\left(-1\right)^m}{m!}\sum_{k_0+k_1+\ldots+k_{n-2}=m}{f(k_0,k_2,\ldots,k_{n-2})}\ }$$
 the set of different partitions:
 $$K_{n,m}=\set{(k_1,k_2,\ldots,k_{n-2}|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ \tag{16} $$
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
