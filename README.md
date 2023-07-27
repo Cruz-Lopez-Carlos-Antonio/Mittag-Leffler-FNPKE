@@ -38,8 +38,9 @@ $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=\sum_{k=0}^{\infty}\frac{\left
 
 where the following set of real numbers is included:
 
-$$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0}$$
+$$\Psi=\set{\phi_n,\phi_{n-1},\ldots\phi_1,\phi_0} \tag{12}$$
 
 which, in turn allows defining the following sum:
+$$S_j=\sum_{j=0}^{n-2}{\left(\phi_{n-2}-\phi_j\right)k_j}$$
 
 
