@@ -52,6 +52,9 @@ The algorithms that are described in the submitted article have the purpose to c
 
 The three points are discussed in the submitted paper in a detailed way. Some general aspects of the second and third steps are described in the following lines.
 ### 3.1 Partitions of integers 
+In order to optimize the way in which is computed the following sum:
+$$\sum_{k_1+k_2+\ldots+k_{n-2}=m}{f(k_1,k_2,\ldots,k_n)}$$
+
 <details><summary>EXPAND SECTION 3.1. Partitions of integers</summary>
 <p>
 
