@@ -98,5 +98,6 @@ end
 </details>
 
 ### 3.2 Computation of the 2-parameter Mittag-Leffler and its derivatives 
+It is possible to show that Eq. (12) can be expressed as:
 
 
