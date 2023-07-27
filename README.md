@@ -61,14 +61,37 @@ $$K_{n,m}=\set{(k_0,k_1,\ldots,k_{n-2}|k_i\geq0,\ 0\le\ i\le\ n,\ \sum_{j=0}^{n-
 
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
 
-$$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{\left(-1\right)^p}{p!}\sum_{K_{n,m}}{f(K_{n,m})}$$
+$$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{\left(-1\right)^p}{p!}\sum_{K_{n,m}}{f(K_{n,m}).}$$
 
-<details><summary>EXPAND SECTION 3.1. Partitions of integers</summary>
+The mentioned sets are built using the following function, which is included in all the developed codes:
+
+<details><summary>EXPAND PARTITIONS CODE. Partitions of integers</summary>
 <p>
 
 
-```ruby
-   puts "Hello World"
+```
+%------------ Partitions of integers for the neutron density------------
+%Section 5.1 of the paper
+%Input: a natural number, n
+%Output: all the partitios of the number n, considering 3 elements, i.e.
+%x_1+x_2+x_3=n. The partitions are stored as arrays [x1, x_2, x_3]
+function B = particiones(n)
+L=[];
+
+for k_0=0:n
+    for k_1=0:n
+        for k_2=0:n
+            if deltakronecker(k_0+k_1+k_2,n)==1
+                L = [L;k_0 k_1 k_2];
+            end
+        end
+    end
+end
+B =L;
+end
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
 ```
 
 </p>
