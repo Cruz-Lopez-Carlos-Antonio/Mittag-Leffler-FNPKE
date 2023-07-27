@@ -52,10 +52,9 @@ The algorithms that are described in the submitted article have the purpose to c
 
 The three points are discussed in the submitted paper in a detailed way. Some general aspects of the second and third steps are described in the following lines.
 ### 3.1 Partitions of integers 
-In order to optimize the way in which is computed the following sum:
+In order to optimize the way in which is computed the following sum of the Eq. (11):
 
-$$\sum_{k_1+k_2+\ldots+k_{n-2}=m}{f(k_1,k_2,\ldots,k_n)\tag{15}}$$
-
+$$K_{n,m}=\left\{\left(k_0,k_1,\ldots,k_{n-2}\right)\right|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ $$
 the set of different partitions:
 $$K_{n,m}=\set{(k_1,k_2,\ldots,k_{n-2}|k_i\geq0,\ 1\le\ i\le\ n,\ \sum_{j=1}^{n-2}k_j=m}\ \tag{16} $$
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
