@@ -107,7 +107,7 @@ $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m
 
 where the function that appears in the right side is known as the 3-parameter Mittag-Leffler function. 
 #### 3.2.1 Invoking the Garrappa function. 
-Garrappa's function is used in the developed algorithms in the following part:
+Garrappa's function is used in the developed algorithms in the following parts:
 
 <details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
 <p>
