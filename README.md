@@ -99,8 +99,8 @@ end
 
 A similar algorithm is used to compute the partitions that used for the precursors of the delayed neutrons. 
 ### 3.2 Computation of the 2-parameter Mittag-Leffler and its derivatives 
-As it is discussed in the submitted paper, one of the most difficult parts when the analytical solutions is computed, is related to evaluate the 2-parameter Mittag-Leffler function. In fact, the definition provided in Eq. (12) is not convenient for large arguments, z, due to several digit precision issues. Therefore it is necessary to use more advanced methods, as the one developed by R. Garrappa [4] who used an integral representation of such function in terms of its Laplace transform. R. Garrappa implement his powerful algorithm in MATLAB programming language, which is freely available in the [MathWorks official site](https://www.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function)
-It is possible to show that Eq. (12) can be expressed as:
+As it is discussed in the submitted paper, one of the most difficult parts when the analytical solutions is computed, is related to evaluate the 2-parameter Mittag-Leffler function. In fact, the definition provided in Eq. (12) is not convenient for large arguments, z, due to several digit precision issues. Therefore it is necessary to use more advanced methods, as the one developed by R. Garrappa [4] who used an integral representation of such function in terms of its Laplace transform. R. Garrappa implement his powerful algorithm in MATLAB programming language, which is freely available in the [MathWorks official site](https://www.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function) 
+Garrappa's code can be used to compute the m-derivative (with m a non-negative integer), using the following relationship:
 
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m+1}(z) \tag{18} $$
 
