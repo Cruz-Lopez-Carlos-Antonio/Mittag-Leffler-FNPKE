@@ -109,7 +109,7 @@ where the function that appears in the right side is known as the 3-parameter Mi
 #### 3.2.1 Invoking the Garrappa function. 
 Garrappa's function is used in the developed algorithms in the following parts:
 
-<details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
+<details><summary>EXPAND Implementation of the Mittag-Leffler in neutron density calculations.</summary>
 <p>
 
 
@@ -160,5 +160,3 @@ Garrappa's function is used in the developed algorithms in the following parts:
 </p>
 </details>
 
-<details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
-<p>
