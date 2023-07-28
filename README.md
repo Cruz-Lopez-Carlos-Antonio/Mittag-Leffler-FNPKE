@@ -114,28 +114,24 @@ Garrappa's function is used in the developed algorithms in the following part:
 
 
 ```MATLAB
-%------------ Partitions of integers for the neutron density------------
-%Section 5.1 of the paper
-%Input: a natural number, n
-%Output: all the partitios of the number n, considering 3 elements, i.e.
-%x_1+x_2+x_3=n. The partitions are stored as arrays [x1, x_2, x_3]
-function B = particiones(n)
-L=[];
 
-for k_0=0:n
-    for k_1=0:n
-        for k_2=0:n
-            if deltakronecker(k_0+k_1+k_2,n)==1
-                L = [L;k_0 k_1 k_2];
-            end
-        end
-    end
-end
-B =L;
-end
-%-------------------------------------------------------------------------
-%-------------------------------------------------------------------------
-
+      %for m==0, we have the standard Mittag-Leffler function
+      if m==0
+          M1=ml(-1*(time^alpha_p)/a1,alpha_p,1+s_k012);
+          M2=ml(-1*(time^alpha_p)/a1,alpha_p,1+alpha_p+s_k012);
+          M3=ml(-1*(time^alpha_p)/a1,alpha_p,2+s_k012);
+          M4=ml(-1*(time^alpha_p)/a1,alpha_p,3+s_k012);
+          M5=ml(-1*(time^alpha_p)/a1,alpha_p,2+alpha_p+s_k012);
+          M6=ml(-1*(time^alpha_p)/a1,alpha_p,3+alpha_p+s_k012);
+      %for m>=1, we have derivatives of the Mittag-Leffler function
+      %and the Eq. 60) is used.
+      else
+          M1=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,alpha_p*m+1+s_k012,m+1);
+          M2=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,1+alpha_p+alpha_p*m+s_k012,m+1);
+          M3=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,2+alpha_p*m+s_k012,m+1);
+          M4=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,3+alpha_p*m+s_k012,m+1);
+          M5=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,2+alpha_p*m+alpha_p+s_k012,m+1);
+ 
 ```
 
 </p>
