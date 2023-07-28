@@ -165,3 +165,15 @@ $$z,\ \alpha,\ \beta,\ \mathrm{and}\ m\ \tag{19},$$
 
 respectively. As it can be observed in the CODES, it is possible to left the fourth argument blank for m=0. In order to use the Garrappa's code, it is necessary to download his MATLAB code and saving it in the same folder tha the developed codes. The following diagram resumes such procedure:
 
+<details><summary>CLICK HERE to expand the Implementation of the Mittag-Leffler in neutron density calculations.</summary>
+<p>
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+</p>
+</details>
