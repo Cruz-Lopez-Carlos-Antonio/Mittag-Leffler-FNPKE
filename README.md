@@ -133,7 +133,32 @@ Garrappa's function is used in the developed algorithms in the following parts:
           M5=factorial(m)*ml(-1*(time^alpha_p)/a1,alpha_p,2+alpha_p*m+alpha_p+s_k012,m+1);
  
 ```
-
 </p>
 </details>
 
+<details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
+<p>
+
+```MATLAB
+%for m==0, we have the standard Mittag-Leffler function
+      if m==0
+          M1=ml(-1*(time^alpha_p)/c1,alpha_p,2+s_k01234);
+          M2=ml(-1*(time^alpha_p)/c1,alpha_p,2+alpha_p+s_k01234);
+          M3=ml(-1*(time^alpha_p)/c1,alpha_p,3+s_k01234);
+          M4=ml(-1*(time^alpha_p)/c1,alpha_p,4+s_k01234);
+          M5=ml(-1*(time^alpha_p)/c1,alpha_p,3+alpha_p+s_k01234);
+      %for m>=1, we have derivatives of the Mittag-Leffler function
+      %and the Eq. 60) is used.    
+      else
+          M1=factorial(m)*ml(-1*(time^alpha_p)/c1,alpha_p,alpha_p*m+2+s_k01234,m+1);
+          M2=factorial(m)*ml(-1*(time^alpha_p)/c1,alpha_p,alpha_p*m+2+alpha_p+s_k01234,m+1);
+          M3=factorial(m)*ml(-1*(time^alpha_p)/c1,alpha_p,alpha_p*m+3+s_k01234,m+1);
+          M4=factorial(m)*ml(-1*(time^alpha_p)/c1,alpha_p,alpha_p*m+4+s_k01234,m+1);
+          M5=factorial(m)*ml(-1*(time^alpha_p)/c1,alpha_p,alpha_p*m+3+alpha_p+s_k01234,m+1);
+      end
+```
+</p>
+</details>
+
+<details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
+<p>
