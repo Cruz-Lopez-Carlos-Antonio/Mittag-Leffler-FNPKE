@@ -61,7 +61,7 @@ $$K_{n,m}=\set{(k_0,k_1,\ldots,k_{n-2}|k_i\geq0,\ 0\le\ i\le\ n,\ \sum_{j=0}^{n-
 
 is precomputed in the developed algorithm. Therefore, the original sum given in (15) can be valuated, in a fast way, as follows:
 
-$$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{\left(-1\right)^p}{p!}\sum_{K_{n,m}}{f(K_{n,m}).}$$
+$$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{\left(-1\right)^p}{p!}\sum_{K_{n,m}}{f(K_{n,m}). \tag{17}}$$
 
 The mentioned sets are built using the following function, which is included in all the developed codes:
 
@@ -97,7 +97,10 @@ end
 </p>
 </details>
 
+A similar algorithm is used to compute the partitions that used for the precursors of the delayed neutrons. 
 ### 3.2 Computation of the 2-parameter Mittag-Leffler and its derivatives 
 It is possible to show that Eq. (12) can be expressed as:
+
+$$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m+1}(z) \tag{18} $$
 
 
