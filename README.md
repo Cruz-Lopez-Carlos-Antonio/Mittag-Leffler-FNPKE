@@ -65,7 +65,7 @@ $$\sum_{K_{n,0}}{f(K_{n,0})}-\sum_{K_{n,1}}\ f\left(K_{n,1}\right)+\ldots+\frac{
 
 The mentioned sets are built using the following function, which is included in all the developed codes:
 
-<details><summary>EXPAND PARTITIONS CODE. Partitions of integers</summary>
+<details><summary>CLICK HERE FOR EXPAND PARTITIONS CODE</summary>
 <p>
 
 
