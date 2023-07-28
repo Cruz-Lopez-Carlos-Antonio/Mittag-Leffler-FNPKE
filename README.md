@@ -161,5 +161,7 @@ Garrappa's function, written as ml(arg1,arg2,arg3,arg4), is used in the develope
 </details>
 
 where the arguments, denoted by arg1, arg2, arg3 and arg4 represent the parameters:
-$$z,\ \alpha,\ \beta,\ \mathrm{and}\ m\ \tag{19}$$
+$$z,\ \alpha,\ \beta,\ \mathrm{and}\ m\ \tag{19},$$
+
+respectively. As it can be observed in the CODES, it is possible to left the fourth argument blank for m=0. In order to use the Garrappa's code, it is necessary to download his MATLAB code and saving it in the same folder tha the developed codes. The following diagram resumes such procedure:
 
