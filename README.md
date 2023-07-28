@@ -99,8 +99,10 @@ end
 
 A similar algorithm is used to compute the partitions that used for the precursors of the delayed neutrons. 
 ### 3.2 Computation of the 2-parameter Mittag-Leffler and its derivatives 
+As it is discussed in the submitted apper, one of the most difficulties parts computing the analytical solutions is related to evaluate the 2-parameter Mittag-Leffler function. In fact, the definition provided in Eq. (12) is not convenient for large arguments, z. Therefore it is necessary to use more advanced methods, as the one provided 
 It is possible to show that Eq. (12) can be expressed as:
 
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m+1}(z) \tag{18} $$
 
+where the function that appears in the right side is known as the 3-parameter Mittag-Leffler function. 
 
