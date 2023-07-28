@@ -161,4 +161,5 @@ Garrappa's function, written as ml(arg1,arg2,arg3,arg4), is used in the develope
 </details>
 
 where the arguments, denoted by arg1, arg2, arg3 and arg4 represent the parameters:
+$$z,\ \alpha,\ \beta,\ \mathrm{and}\ \$$
 
