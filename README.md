@@ -107,7 +107,7 @@ $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m
 
 where the function that appears in the right side is known as the 3-parameter Mittag-Leffler function. 
 #### 3.2.1 Invoking the Garrappa function. 
-Garrappa's function, denoted by ml(arg1,arg2,arg3,arg4), is used in the developed algorithms in the following parts:
+Garrappa's function, written as ml(arg1,arg2,arg3,arg4), is used in the developed algorithms in the following parts:
 
 <details><summary>CLICK HERE to expand the Implementation of the Mittag-Leffler in neutron density calculations.</summary>
 <p>
@@ -159,4 +159,6 @@ Garrappa's function, denoted by ml(arg1,arg2,arg3,arg4), is used in the develope
 ```
 </p>
 </details>
+
+where the arguments, denoted by arg1, arg2, arg3 and arg4 represent the parameters:
 
