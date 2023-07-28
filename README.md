@@ -106,4 +106,38 @@ Therefore it is necessary to use more advanced methods, as the one developed by 
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m+1}(z) \tag{18} $$
 
 where the function that appears in the right side is known as the 3-parameter Mittag-Leffler function. 
+#### 3.2.1 Invoking the Garrappa function. 
+Garrappa's function is used in the developed algorithms in the following part:
+
+<details><summary>EXPAND MITTAG-LEFFLER CALCULATIONS. Mittag-Leffler calculations</summary>
+<p>
+
+
+```MATLAB
+%------------ Partitions of integers for the neutron density------------
+%Section 5.1 of the paper
+%Input: a natural number, n
+%Output: all the partitios of the number n, considering 3 elements, i.e.
+%x_1+x_2+x_3=n. The partitions are stored as arrays [x1, x_2, x_3]
+function B = particiones(n)
+L=[];
+
+for k_0=0:n
+    for k_1=0:n
+        for k_2=0:n
+            if deltakronecker(k_0+k_1+k_2,n)==1
+                L = [L;k_0 k_1 k_2];
+            end
+        end
+    end
+end
+B =L;
+end
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
+```
+
+</p>
+</details>
 
