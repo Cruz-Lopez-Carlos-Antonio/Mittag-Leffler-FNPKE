@@ -106,7 +106,7 @@ Therefore it is necessary to use more advanced methods, as the one developed by 
 $$E_{\alpha,\beta}^{\left(m\right)}\left(z\right)=m!E_{\alpha,\alpha m+\beta}^{m+1}(z) \tag{18} $$
 
 where the function that appears in the right side is known as the 3-parameter Mittag-Leffler function. 
-#### 3.2.1 Invoking the Garrappa function. 
+#### 3.2.1 Invoking the Garrappa's function. 
 Garrappa's function, written as ml(arg1,arg2,arg3,arg4), is used in the developed algorithms in the following parts:
 
 <details><summary>CLICK HERE to expand the Implementation of the Mittag-Leffler in neutron density calculations.</summary>
