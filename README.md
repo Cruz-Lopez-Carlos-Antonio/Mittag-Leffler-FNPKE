@@ -178,7 +178,7 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 ### 4.1 FNPK-Insertion code
 The FPNK-Insertion code, written in MATLAB language, solves the system given in Eq. (1) and Eq. (2) considering a constant reactivity. In the submitted paper it was concluded that such solution provided accurate results, always that the following inequality be fullfilled:
 
-$$\left(\frac{t}{\tau}\right)^\alpha<80.42$$
+$$\left(\frac{t}{\tau}\right)^\alpha<80.42 \tag{20}$$
 
 #### 4.1.1 First example of application. 
 FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarrios et al. [6]. For such task the following data was used:
