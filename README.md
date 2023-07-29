@@ -173,8 +173,7 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 </p>
 </details>
 
-## 4. Description and application of the developed codes
-
+## 4. Description of the developed codes and some examples of their application. 
 ### 4.1 FNPK-Insertion code
 The FPNK-Insertion code, written in MATLAB language, solves the system given in Eq. (1) and Eq. (2) considering a constant reactivity. In the submitted paper it was concluded that such solution provided accurate results, always that the following inequality be fullfilled:
 
