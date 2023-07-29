@@ -173,5 +173,8 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 </p>
 </details>
 
-## 4. Use of the codes and numerical experiments. 
-Numerical experiments are divided in two parts: in the first one, data that is reported by Polo-Labarrios et al. [6] is reproduced. In the second one three different physical applications are studied: insertion, ramp and feedback reactivity.  
+## 4. Numerical experiments and description of the MATLAB and Python files.
+Numerical experiments are divided in two parts: in the first one, data that is reported by Polo-Labarrios et al. [6] by numerical means, is reproduced. In the second one, three different physical applications are studied: insertion, ramp and feedback reactivity. 
+
+### 4.1 Comparison with a numerical solution. 
+Polo-Labarrios et al. [6] solved the system given in Eq. (1) and Eq. (2) using the Laplace transform method, but carry-out the inversion process by numerical methods. The present work, by the contrary, solves such system in an analyticall way. Therefore, a comparison was made between these two approaches using the
