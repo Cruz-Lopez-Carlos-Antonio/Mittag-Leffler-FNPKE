@@ -174,3 +174,4 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 </details>
 
 ## 4. Numerical experiments and results. 
+Numerical experiments are divided in two parts: in the first one, data that is reported by Polo-Labarrios et al. [6] is reproduced. In the second one three different physical applications are studied: insertion, ramp and feedback reactivity.  
