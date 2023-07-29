@@ -173,8 +173,19 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 </p>
 </details>
 
-## 4. Numerical experiments and description of the MATLAB and Python files.
+## 4. Description and application of the developed codes
+
+### 4.1 FNPK-Insertion code
+The FPNK-Insertion code, written in MATLAB language, solves the system given in Eq. (1) and Eq. (2) considering a constant reactivity. In the submitted paper it was concluded that such solution provided accurate results, always that the following inequality be fullfilled:
+
+$$\left(\frac{t}{\tau}\right)^\alpha<80.42$$
+
+#### 4.1.1 First example of application. 
+FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarrios et al. [6]. For such task the following data was used:
+
+
 Numerical experiments are divided in two parts: in the first one, data that is reported by Polo-Labarrios et al. [6] by numerical means, is reproduced. In the second one, three different physical applications are studied: insertion, ramp and feedback reactivity. 
 
 ### 4.1 Comparison with a numerical solution. 
-Polo-Labarrios et al. [6] solved the system given in Eq. (1) and Eq. (2) using the Laplace transform method, but carry-out the inversion process by numerical methods. The present work, by the contrary, solves such system in an analyticall way. Therefore, a comparison was made between these two approaches using the
+Polo-Labarrios et al. [6] solved the system given in Eq. (1) and Eq. (2) using the Laplace transform method, but they carried out the inversion process by numerical methods. The present work, by the contrary, solves such system in an analyticall way. Therefore, a comparison was made between these two approaches.
+
