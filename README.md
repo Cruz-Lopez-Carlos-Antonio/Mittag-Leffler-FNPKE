@@ -168,7 +168,7 @@ respectively. As it can be observed in the CODES, it is possible to left the fou
 <details><summary>CLICK HERE to expand the Implementation of the Mittag-Leffler in neutron density calculations.</summary>
 <p>
 
-![image](https://github.com/Cruz-Lopez-Carlos-Antonio/Mittag-Leffler-FNPKE/assets/139827225/baf660e2-7670-4e09-8c2e-650149cc6b73)
+![image](https://github.com/Cruz-Lopez-Carlos-Antonio/Mittag-Leffler-FNPKE/assets/139827225/e909ffdd-d1ab-463f-a904-0beca1d44bc2)
 
 </p>
 </details>
