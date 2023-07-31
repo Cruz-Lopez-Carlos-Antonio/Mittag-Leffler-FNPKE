@@ -226,7 +226,7 @@ Finally, the following initial conditions, related to a nuclear reactor in a ste
 
 $$n(t=0)=n(0)=n_0, \frac{dn\left(t\right)}{dt}|_{t=0}=0 \tag{21}$$
 
-$$C(t=0)=C(0)=C_0$$
+$$C(t=0)=C(0)=C_0=\frac{\beta}{\Lambda\lambda}n_0$$
 
 which are introduced as follows:
 
