@@ -194,10 +194,12 @@ The following table contains the data that was used to carry out the calculation
 
 <details><summary>CLICK HERE to expand the parameters that were used to the first comparison.</summary>
 <p>
-| Nuclear parameter | Value |
+ 
+| Nuclear parameter | Value     |
 | ------------- | ------------- |
-| tau |0.000125591s |
-| PNL  | 0.975  |
+| tau           | 0.000125591s  |
+| PNL           | 0.975         |
+
 </p>
 </details>
 
