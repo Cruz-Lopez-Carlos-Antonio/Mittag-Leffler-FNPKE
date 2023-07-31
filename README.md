@@ -279,7 +279,7 @@ vect_sol =
 ```
 In this case we have three columns: the first one contains the time, the second one the neutron density and the final one the precursor's density. In the first row, we have the results for t=0, which are:
 
-$$\buildrel{\overbrace{n\left(t=0\ s\right)=1,\ C\left(t=0\right)=1676.461185375}}\over{\overbrace{n\left(t=0\ s\right)=1,\ C\left(t=0\right)=1676.461185375}}\mathrm{First\ raw}$$
+$$\over{\overbrace{n\left(t=0\ s\right)=1,\ C\left(t=0\right)=1676.461185375}}\mathrm{First\ raw}$$
 
 In the second raw, in the other hand, we have:
 
