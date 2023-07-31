@@ -202,3 +202,22 @@ $$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
 </p>
 </details>
 
+The last data can be introduced in the code in the following lines:
+
+<details><summary>CLICK HERE to expand the section of code where the data is introduced.</summary>
+<p>
+ %-----------------Nuclear Data from the Model-------------------------
+global tau lambda_p beta_p beta_p PNL rho LAMBDA_p;
+
+tau = 3*9.21/220000
+lambda_p =0.0769478
+beta_p = 0.00645
+PNL=0.975
+rho = 0.002
+LAMBDA_p=0.00005
+%---------------------------------------------------------------------
+
+
+</p>
+</details>
+
