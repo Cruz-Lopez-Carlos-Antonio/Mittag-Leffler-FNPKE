@@ -196,8 +196,8 @@ The following table contains the data that was used to carry out the calculation
 <p>
 | Nuclear parameter | Value |
 | ------------- | ------------- |
-| $$tau$$  | Content Cell  |
-| Content Cell  | Content Cell  |
+| tau |0.000125591s |
+| PNL  | 0.975  |
 </p>
 </details>
 
