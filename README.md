@@ -246,6 +246,34 @@ C_0=n_0*beta_p/(LAMBDA_p*lambda_p)
 
 **Example of an input and output #1**
 
-For small times that fulfill the condition Eq. (20), it is possible to compute the neutron and the density of precursor specifiying the fractional order and the numbers of terms that will be used to approximate the sum. For such case the time step, denoted by **h** will be equal to the final time. In order words, it will be not necessary to use sub-intervals. In the following lines is an example of calculations, which coincides with the value that is reported in Table 7 of the paper:
+For small times that fulfill the condition Eq. (20), it is possible to compute the neutron and the density of precursor specifiying the fractional order and the numbers of terms that will be used to approximate the sum. For such case the time step, denoted by **h**, will be equal to the final time. In order words, it will be not necessary to use sub-intervals. In the following lines is an example of calculations, which coincides with the value that is reported in Table 7 of the paper:
 
+<details><summary>CLICK HERE to expand the first example of Input and output.</summary>
+<p>
 
+INPUT:
+
+```MATLAB
+
+%---------------------Calling the function----------------------------
+%first parameter = Target time
+%second parameter = step
+%third parameter = fractional order
+%fourth parameter = number of the terms used to approx the infinite sum
+Insertion(0.0011,0.0011,0.999999,10)
+%----------------------------------------------------------------------
+
+```MATLAB
+OUTPUT (console)
+```
+vect_sol =
+
+   1.0e+03 *
+
+                   0   0.001000000000000   1.676461185375020
+   0.000001100000000   0.001039367880451   1.676464093008690
+```
+</p>
+</details>
+
+ 
