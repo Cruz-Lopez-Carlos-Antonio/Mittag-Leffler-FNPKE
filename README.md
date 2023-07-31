@@ -185,13 +185,6 @@ $$\left(\frac{t}{\tau}\right)^\alpha<80.42 \tag{20}$$
 #### 4.1.1 First example of application. 
 FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarrios et al. [6]. For such task the following data was used:
 
-
-Numerical experiments are divided in two parts: in the first one, data that is reported by Polo-Labarrios et al. [6] by numerical means, is reproduced. In the second one, three different physical applications are studied: insertion, ramp and feedback reactivity. 
-
-### 4.1 Comparison with a numerical solution. 
-Polo-Labarrios et al. [6] solved the system given in Eq. (1) and Eq. (2) using the Laplace transform method, but they carried out the inversion process by numerical methods. The present work, by the contrary, solves such system in an analyticall way. Therefore, a comparison was made between these two approaches.
-The following table contains the data that was used to carry out the calculations:
-
 <details><summary>CLICK HERE to expand the parameters that were used to the first comparison.</summary>
 <p>
  
