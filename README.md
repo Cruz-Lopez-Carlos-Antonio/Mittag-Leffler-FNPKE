@@ -228,6 +228,19 @@ $$n(t=0)=n(0)=n_0, \frac{dn\left(t\right)}{dt}|_{t=0}=0$$
 
 $$C(t=0)=C(0)=C_0$$
 
-dedede
-x|_{t=0}=0
+which are introduced as follows:
+
+<details><summary>CLICK HERE to expand the section of code where the initial conditions are introduced.</summary>
+<p>
+ 
+ ```MATLAB
+
+%--------------------Initial conditions-------------------------------
+global n_0 C_0 dn_0 q0;
+n_0=1
+C_0=n_0*beta_p/(LAMBDA_p*lambda_p)
+%---------------------------------------------------------------------
+```
+</p>
+</details>
 
