@@ -197,7 +197,7 @@ FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarri
 where the following notation was used:
 
 $$\mathrm{tau}=\tau,\mathrm{lambda}=\lambda,\mathrm{PNL}=P_{NL},$$
-$$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
+$$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda \tag{20}$$
 
 </p>
 </details>
@@ -224,7 +224,7 @@ LAMBDA_p=0.00005
 </details>
 Finally, the following initial conditions, related to a nuclear reactor in a steady state, were used:
 
-$$n(t=0)=n(0)=n_0, \frac{dn\left(t\right)}{dt}|_{t=0}=0$$
+$$n(t=0)=n(0)=n_0, \frac{dn\left(t\right)}{dt}|_{t=0}=0 \tag{21}$$
 
 $$C(t=0)=C(0)=C_0$$
 
