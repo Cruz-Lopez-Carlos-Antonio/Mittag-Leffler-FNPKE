@@ -227,4 +227,5 @@ Finally, the following initial conditions, related to a nuclear reactor in a ste
 $$n(t=0)=n(0)=n_0,$$
 $$\frac{dn(t)}{dt}=0 at t=0,$$
 $$C(t=0)=C(0)=C_0$$
+s
 
