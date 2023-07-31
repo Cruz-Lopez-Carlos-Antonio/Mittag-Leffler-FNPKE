@@ -222,4 +222,9 @@ LAMBDA_p=0.00005
 ```
 </p>
 </details>
+Finally, the following initial conditions, related to a nuclear reactor in a steady state, were used:
+$$n\left(t=0\right)=n\left(0\right)=n_0,$$
+$$\frac{dn\left(t\right)}{dt}|_{t=0}=0,$$
+$$C\left(t=0\right)=C\left(0\right)=C_0$$
+
 
