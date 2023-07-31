@@ -196,7 +196,9 @@ FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarri
 
 where the following notation was used:
 
-$$\mathrm{tau}=\tau,\mathrm{lambda}=\lambda,\mathrm{\mathrm{\ }beta}=\beta$$
+$$\mathrm{tau}=\tau,\mathrm{lambda}=\lambda,$$
+$$\mathrm{PNL}=P_NL,\mathrm{rho}==�,Lambda=Λ$$
+$$\mathrm{\mathrm{\ }beta}=\beta$$
 </p>
 </details>
 
