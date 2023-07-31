@@ -245,6 +245,7 @@ C_0=n_0*beta_p/(LAMBDA_p*lambda_p)
 </details>
 
 **Example of an input and output #1**
+
 For small times that fulfill the condition Eq. (20), it is possible to compute the neutron and the density of precursor specifiying the fractional order and the numbers of terms that will be used to approximate the sum. For such case the time step, denoted by **h** will be equal to the final time. In order words, it will be not necessary to use sub-intervals. In the following lines is an example of calculations, which coincides with the value that is reported in Table 7 of the paper:
 
 
