@@ -188,10 +188,11 @@ FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarri
 <details><summary>CLICK HERE to expand the parameters that were used to the first comparison.</summary>
 <p>
  
-| Nuclear parameter | Value     | Nuclear parameter | Value         |
-| ------------- | ------------- | -------------     | ------------- |
-| tau           | 0.000125591s  | lambda            | 0.0769478     |
-| PNL           | 0.975         |
+| Nuclear parameter | Value     | Nuclear parameter | Value           |
+| ------------- | ------------- | -------------     | --------------  |
+| tau           | 0.000125591s  | lambda            | 0.0769478s^(-1) |
+| PNL           | 0.975         | beta              |0.00645          |
+| rho           |0.002          |Lambda             |0.00005s         |
 
 </p>
 </details>
