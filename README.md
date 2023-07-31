@@ -251,6 +251,8 @@ For small times that fulfill the condition Eq. (20), it is possible to compute t
 <details><summary>CLICK HERE to expand the first example of Input and output.</summary>
 <p>
 
+The wanted calculation: n(0.011) and C(0.0011)
+
 INPUT:
 
 ```MATLAB
@@ -275,7 +277,19 @@ vect_sol =
                    0   0.001000000000000   1.676461185375020
    0.000001100000000   0.001039367880451   1.676464093008690
 ```
+In this case we have three columns: the first one contains the time, the second one the neutron density and the final one the precursor's density. In the first row, we have the results for t=0, which are:
+
+$$\buildrel{\overbrace{n\left(t=0\ s\right)=1,\ C\left(t=0\right)=1676.461185375}}\over{\overbrace{n\left(t=0\ s\right)=1,\ C\left(t=0\right)=1676.461185375}}\mathrm{First\ raw}$$
+
+In the second raw, in the other hand, we have:
+
+
+A similar output is provided in a .xls file. From these data it follows that:
+
+
+
 </p>
 </details>
+
 
  
