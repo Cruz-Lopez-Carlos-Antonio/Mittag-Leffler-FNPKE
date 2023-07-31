@@ -61,13 +61,18 @@ vect_sol = []
 malla = ceil(final_time/step)
 for i=0:malla
     i
-    n_i = n_0
-    c_i=C_0
-    n_f = solution_neutrons(step,n_0,C_0,order, approx);
-    c_f = solution_precursors(step,n_0,C_0,order,approx,i);
+    if i==0
+        n_f = solution_neutrons(0,n_0,C_0,order, approx);
+        c_f = solution_precursors(0,n_0,C_0,order,approx,i);
+    
+    else
+        n_f = solution_neutrons(step,n_0,C_0,order, approx);
+        c_f = solution_precursors(step,n_0,C_0,order,approx,i);
+    end
+
     n_0=n_f
     C_0=c_f
-    vect_sol = [vect_sol; i*step n_i c_i n_0 C_0];
+    vect_sol = [vect_sol; i*step n_f c_f];
     size(vect_sol);
     i
 end
