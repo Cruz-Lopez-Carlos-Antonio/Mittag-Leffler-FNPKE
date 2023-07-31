@@ -192,7 +192,12 @@ Numerical experiments are divided in two parts: in the first one, data that is r
 Polo-Labarrios et al. [6] solved the system given in Eq. (1) and Eq. (2) using the Laplace transform method, but they carried out the inversion process by numerical methods. The present work, by the contrary, solves such system in an analyticall way. Therefore, a comparison was made between these two approaches.
 The following table contains the data that was used to carry out the calculations:
 
-| First Header  | Second Header |
+<details><summary>CLICK HERE to expand the parameters that were used to the first comparison.</summary>
+<p>
+| Nuclear parameter | Value |
 | ------------- | ------------- |
+| $$tau$$  | Content Cell  |
 | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+</p>
+</details>
+
