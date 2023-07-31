@@ -224,9 +224,10 @@ LAMBDA_p=0.00005
 </details>
 Finally, the following initial conditions, related to a nuclear reactor in a steady state, were used:
 
-$$n(t=0)=n(0)=n_0,$$
-$$\frac{dn(t)}{dt} $$
+$$n(t=0)=n(0)=n_0$$,
+$$\frac{dn(t)}{dt}$$
 $$C(t=0)=C(0)=C_0$$
 
 dedede
+x|_{t=0}=0
 
