@@ -284,13 +284,41 @@ $$n\left(t=0 \right)=1,\ C\left(t=0 \right)=1676.461185375$$
 In the second raw, in the other hand, we have:
 $$n(0.0011s )=1.039367,\ \ C(0.0011s)=1676.464093$$
 
-A similar output is provided in a .xls file. From these data it follows that:
-
-
-
+A similar output is provided in a .xls file. 
 </p>
 </details>
 
-### 4.1 FNPK-Reactivity code
+**Example of an input and output #2**
+For large times or times that does not fulfill the Eq. (20), it is necessary to use a different approach that consists of dividing the time interval, and use an iterative procedure. For example, to find the neutron density at t=0.5, it is possible to use a step of **h=0.01** as follows:
+
+<details><summary>CLICK HERE to expand the second example of Input and output.</summary>
+<p>
+The wanted calculation: n(0.011) and C(0.0011)
+
+INPUT:
+
+```MATLAB
+
+
+Insertion(0.0011,0.0011,0.999999,10)
+
+
+```
+
+OUTPUT (console)
+
+```
+vect_sol =
+
+   1.0e+03 *
+
+                   0   0.001000000000000   1.676461185375020
+   0.000001100000000   0.001039367880451   1.676464093008690
+```
+</p>
+</details>
+
+### 4.1 FNPK-ramp code
+
 
  
