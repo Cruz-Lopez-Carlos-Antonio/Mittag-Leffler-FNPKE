@@ -282,7 +282,7 @@ In this case we have three columns: the first one contains the time, the second 
 $$n\left(t=0 \right)=1,\ C\left(t=0 \right)=1676.461185375$$
 
 In the second raw, in the other hand, we have:
-
+$$n(0.0011"s"\ )=1.039367,\ \ C(0.0011s)=1676.464093$$
 
 A similar output is provided in a .xls file. From these data it follows that:
 
