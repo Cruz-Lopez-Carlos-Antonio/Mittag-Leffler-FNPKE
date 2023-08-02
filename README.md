@@ -383,6 +383,13 @@ Analytical solutions can be used to simulate cases where reactivity is function 
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
 
+where the limit and upper times are defined as:
+
+$$t_{n}=\Delta t \cdot n = h \cdot n$$
+
+In this contexto two approaches can be used: the lower and the upper one. In the case of the upper one, it follows that:
+
+
 
 
 
