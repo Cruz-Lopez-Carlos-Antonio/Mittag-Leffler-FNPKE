@@ -369,6 +369,11 @@ The last value correspond to t=0.5, where it follows that:
 $$n\left(0.5s\right)=1.47859\ $$
 $$C\left(0.5s\right)=1711.93$$
 
+which is very similar to the result given in Table 11, part 1 of the paper, where it was computed n(0.501) and C(0.501). In fact:
+
+$$n\left(0.501s\right)=1.4785090\ $$
+$$C\left(0.501s\right)=1705.2439$$
+
 
 </p>
 </details>
