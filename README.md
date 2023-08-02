@@ -391,8 +391,7 @@ $$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1) \tag{23}$$
 
 Therefore, it follows that Eq. (22) is reduced to:
 
-$$\bar{\rho}=\frac{\rho\left(nh\right)+\rho(\left(n-1\right)h)} $$
-
+$$\bar{\rho}=\frac{\rho\left(nh\right)+\rho(\left(n-1\right)h)}{2} \tag{24}$$
 For the particular case of a ramp, it follows that:
 $$\rho(t)=kt \tag{25}$$
 
