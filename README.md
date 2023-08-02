@@ -402,9 +402,28 @@ Essentially, the code is identical to the FNPK-insertion, but some lines are mod
 
 <details><summary>CLICK HERE to expand modified line of the code</summary>
 <p>
+```MATLAB
+for i=0:malla
+    i
+    n_i = n_0;
+    c_i=C_0;
+
+    %Lower approax where the first point includes a time step
+
+    rho = (ramp*i*paso+ramp*(i-1)*paso)/2;
 
 
+    n_f = solution_neutrons(paso,n_0,C_0,order,approx,rho);
+    c_f = solution_precursors(paso,n_0,C_0,order,approx,i,rho);
+    n_0=n_f;
+    C_0=c_f;
 
+    vect_sol = [vect_sol; i*step n_i c_i n_0 C_0];
+    size(vect_sol);
+    i
+end
+vect_sol
+```
 </p>
 </details>
 
