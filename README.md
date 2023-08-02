@@ -289,11 +289,11 @@ A similar output is provided in a .xls file.
 </details>
 
 **Example of an input and output #2**
-For large times or times that does not fulfill the Eq. (20), it is necessary to use a different approach that consists of dividing the time interval, and use an iterative procedure. For example, to find the neutron density at t=0.5, it is possible to use a step of **h=0.01** as follows:
+For large times or times that does not fulfill the Eq. (20), it is necessary to use a different approach that consists of dividing the time interval, and use an iterative procedure. For example, to find the neutron density at t=0.5 and alpha = 0.7, it is possible to use a step of **h=0.01** as follows:
 
 <details><summary>CLICK HERE to expand the second example of Input and output.</summary>
 <p>
-The wanted calculation: n(0.011) and C(0.0011)
+The wanted calculation: n(0.5) and C(0.5)
 
 INPUT:
 
@@ -366,6 +366,8 @@ vect_sol =
 ```
 
 The last value correspond to t=0.5, where it follows that:
+$$n\left(0.5s\right)=1.47859\ $$
+$$C\left(0.5s\right)=1711.93$$
 
 
 </p>
