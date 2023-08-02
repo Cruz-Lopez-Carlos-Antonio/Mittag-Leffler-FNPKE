@@ -379,6 +379,7 @@ $$C\left(0.501s\right)=1705.2439$$
 </details>
 
 ### 4.2 FNPK-ramp code
+#### 4.1 FNPK-ramp-lower code
 Analytical solutions can be used to simulate cases where reactivity is function of time. In such case it is necessary to divide the time interval in smalls sub intervals, assuming a constant value of the reactivity in each of them, given by:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
