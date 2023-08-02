@@ -402,6 +402,23 @@ Essentially, the code is identical to the FNPK-insertion, but some lines are mod
 
 <details><summary>CLICK HERE to expand modified line of the code</summary>
 <p>
+
+The first modification is related to the input parameters as follows:
+
+```MATLAB
+%-----------------Nuclear Data from the Model-------------------------
+global tau lambda_p beta_p beta_p PNL rho LAMBDA_p ramp;
+
+tau = 3*9.21/220000
+lambda_p =0.0787
+beta_p = 0.00755
+PNL=0.975
+ramp = 0.0005
+LAMBDA_p=0.003
+%---------------------------------------------------------------------
+```
+
+The second modification, on the other hand, is related to the way in which the reactivity is updated.
  
 ```MATLAB
 for i=0:malla
