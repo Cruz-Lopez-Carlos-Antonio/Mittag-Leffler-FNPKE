@@ -197,7 +197,7 @@ FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarri
 where the following notation was used:
 
 $$\mathrm{tau}=\tau,\mathrm{lambda}=\lambda,\mathrm{PNL}=P_{NL},$$
-$$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda \tag{20}$$
+$$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
 
 </p>
 </details>
@@ -380,6 +380,8 @@ $$C\left(0.501s\right)=1705.2439$$
 
 ### 4.2 FNPK-ramp code
 Analytical solutions can be used to simulate cases where reactivity is function of time. In such case it is necessary to divide the time interval in smalls sub intervals, assuming a constant value of the reactivity in each of them, given by:
+
+$$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
 
 
 
