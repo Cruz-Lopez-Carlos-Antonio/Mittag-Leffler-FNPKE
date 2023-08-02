@@ -403,8 +403,7 @@ Essentially, the code is identical to the FNPK-insertion, but some lines are mod
 <details><summary>CLICK HERE to expand modified line of the code</summary>
 <p>
 
-The first modification is related to the input parameters as follows:
-
+The first modification is related to the input parameters, where the variable "ramp" is introduced as follows
 ```MATLAB
 %-----------------Nuclear Data from the Model-------------------------
 global tau lambda_p beta_p beta_p PNL rho LAMBDA_p ramp;
