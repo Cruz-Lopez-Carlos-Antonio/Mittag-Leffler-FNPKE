@@ -389,7 +389,7 @@ $$t_{n}=\Delta t \cdot n = h \cdot n$$
 
 In this contexto two approaches can be used: the lower and the upper one. In the case of the upper one, it follows that:
 
-
+$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1)$$
 
 
 
