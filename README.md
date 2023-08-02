@@ -442,9 +442,24 @@ vect_sol
 </p>
 </details>
 
+#### 4.2 FNPK-ramp-upper code
 
+There is a shift in the data obtained by the lower ramp, because it introduces a negative reactivity for a time step different from zero. An alternative approach consists of defining the value for t=0, considering the following two additional instructions to the code. 
 
-
-
+<details><summary>CLICK HERE to expand modified line of the code</summary>
+<p>
+```MATLAB
+%Updationg of the value of the ramp according to Eq. (68) of the paper
+    rho = (ramp*i*paso+ramp*(i-1)*paso)/2;
+    if i==0
+        n_f = solution_neutrons(0,n_0,C_0,order,approx,rho);
+        c_f = solution_precursors(0,n_0,C_0,order,approx,i,rho);
+    else
+        n_f = solution_neutrons(paso,n_0,C_0,order,approx,rho);
+        c_f = solution_precursors(paso,n_0,C_0,order,approx,i,rho);
+    end
+```
+</p>
+</details>
 
  
