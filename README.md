@@ -378,7 +378,10 @@ $$C\left(0.501s\right)=1705.2439$$
 </p>
 </details>
 
-### 4.1 FNPK-ramp code
+### 4.2 FNPK-ramp code
+Analytical solutions can be used to simulate cases where reactivity is function of time. In such case it is necessary to divide the time interval in smalls sub intervals, assuming a constant value of the reactivity in each of them, given by:
+
+
 
 
  
