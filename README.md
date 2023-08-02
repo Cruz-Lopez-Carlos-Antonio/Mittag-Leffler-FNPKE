@@ -386,10 +386,16 @@ $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
 where the limit and upper times are defined as:
 
 $$t_{n}=\Delta t \cdot n = h \cdot n$$
+$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1) \tag{23}$$
+
+Therefore, it follows that Eq. (22) is reduced to:
+$$\bar{\rho}=\frac{\rho\left(nh\right)+\rho(\left(n-1\right)h)}{2}$$
+
+
 
 In this contexto two approaches can be used: the lower and the upper one. In the case of the upper one, it follows that:
 
-$$t_{n-1}=\Delta t \cdot (n-1) = h \cdot (n-1)$$
+
 
 
 
