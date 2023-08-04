@@ -487,8 +487,7 @@ $$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
 </p>
 </details>
 
-The last data can be introduced in the code in the following lines:
-
+We are interested in compute the neutron density and the precursor of the delayed neutron concentration at t=2, considering an alpha value of alpha = 0.8 and 
 <details><summary>CLICK HERE to expand the section of code where the data is introduced.</summary>
 <p>
  
