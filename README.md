@@ -527,3 +527,12 @@ and the output (listing the last 10 values) are given by
 It is possible to use the analytical solution to approximate the solution of Eq.(1) and Eq.(2) for feedback reactivities where:
 
 $$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau \tag{26}$$
+
+where:
+
+$$at=\mathrm{term\mathrm{\} related\ to\ the\ impressed\ reactivity},$$
+$$b=\mathrm{term\mathrm{\} related\ to\ the\ shutdown\ coefficient}$$
+
+In such case it is necessary to divide the time interval in subintervals, and approximate the last integral as follows:
+
+$$\rho(h)=\rho(0)+h(a-b\cdot\ n(0)) \tag{27}$$
