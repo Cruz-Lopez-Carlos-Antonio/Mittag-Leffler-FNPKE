@@ -526,4 +526,4 @@ and the output (listing the last 10 values) are given by
 ### 4.2 FNPK-feedback reactivity code
 It is possible to use the analytical solution to approximate the solution of Eq.(1) and Eq.(2) for feedback reactivities where:
 
-$$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau$$
+$$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau \tag{26}$$
