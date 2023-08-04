@@ -487,7 +487,22 @@ $$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
 </p>
 </details>
 
-We are interested in compute the neutron density and the precursor of the delayed neutron concentration at t=2, considering an alpha value of alpha = 0.8 and 
-<details><summary>CLICK HERE to expand the section of code where the data is introduced.</summary>
+We are interested in compute the neutron density and the precursor of the delayed neutron concentration at t=2, considering an alpha value of alpha = 0.8, a time step of h=0.01 and ten terms of the sum. Therefore, we have the following Input and Output values:
+
+<details><summary>CLICK HERE to expand the Input and Ouputs of the example</summary>
 <p>
+
+%---------------------Calling the function----------------------------
+%first parameter = Target time
+%second parameter = step
+%third parameter = fractional order
+%fourth parameter = number of the terms used to approx the infinite sum
+
+ramp_reactivity(2,0.01,0.8,10)
+%---------------------------------------------------------------------
+ 
+```MATLAB
+
+</p>
+</details>
  
