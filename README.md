@@ -379,7 +379,7 @@ $$C\left(0.501s\right)=1705.2439$$
 </details>
 
 ### 4.2 FNPK-ramp code
-#### 4.2.1 FNPK-ramp-lower code
+
 Analytical solutions can be used to simulate cases where reactivity is function of time. In such case it is necessary to divide the time interval in smalls sub intervals, assuming a constant value of the reactivity in each of them, given by:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
@@ -398,6 +398,7 @@ For the particular case of a ramp, it follows that:
 
 $$\rho(t)=kt \tag{25}$$
 
+#### 4.2.1 FNPK-ramp-lower code
 Essentially, the code is identical to the FNPK-insertion, but some lines are modified. Firstly, the initial conditions require the parameter "ramp", instead of rho:
 
 <details><summary>CLICK HERE to expand modified line of the code</summary>
@@ -523,7 +524,7 @@ and the output (listing the last 10 values) are given by
 </p>
 </details>
 
-### 4.2 FNPK-feedback reactivity code
+### 4.3 FNPK-feedback reactivity code
 It is possible to use the analytical solution to approximate the solution of Eq.(1) and Eq.(2) for feedback reactivities where:
 
 $$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau \tag{26}$$
