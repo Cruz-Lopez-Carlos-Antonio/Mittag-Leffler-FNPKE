@@ -74,7 +74,7 @@ for i=0:malla
     n_0=n_f;
     C_0=c_f;
     
-    vect_sol = [vect_sol; i*step n_i c_i n_0 C_0];
+    vect_sol = [vect_sol; i*step n_f c_f ];
     size(vect_sol);
     i
 end
