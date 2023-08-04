@@ -464,4 +464,31 @@ There is a shift in the data obtained by the lower ramp, because it introduces a
 </p>
 </details>
 
+Difference between the models can be appreciated as a shift of the values. It is worth mentioning that only the lower approach was reported in the submitted paper. 
+
+#### 4.3 Examples of applications. 
+##### 4.3.1 First example of application. 
+Data proposed by Amano will be used to simulate the first example of application, using the lower approach. Such data is given by:
+
+<details><summary>CLICK HERE to expand data that was used to simulate the ramp reactivity.</summary>
+<p>
+ 
+| Nuclear parameter | Value     | Nuclear parameter | Value           |
+| ------------- | ------------- | -------------     | --------------  |
+| tau           | 0.000125591s  | lambda            | 0.0787s^(-1)    |
+| PNL           | 0.975         | beta              |0.00755          |
+| rho           |0.0005t        |Lambda             |0.003s           |
+
+where the following notation was used:
+
+$$\mathrm{tau}=\tau,\mathrm{lambda}=\lambda,\mathrm{PNL}=P_{NL},$$
+$$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
+
+</p>
+</details>
+
+The last data can be introduced in the code in the following lines:
+
+<details><summary>CLICK HERE to expand the section of code where the data is introduced.</summary>
+<p>
  
