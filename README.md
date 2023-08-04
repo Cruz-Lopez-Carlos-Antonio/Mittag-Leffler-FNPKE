@@ -451,7 +451,7 @@ There is a shift in the data obtained by the lower ramp, because it introduces a
  
 ```MATLAB
 
-%Updationg of the value of the ramp according to Eq. (68) of the paper
+%Updating  the value of the ramp according to Eq. (68) of the paper
     rho = (ramp*i*paso+ramp*(i-1)*paso)/2;
     if i==0
         n_f = solution_neutrons(0,n_0,C_0,order,approx,rho);
