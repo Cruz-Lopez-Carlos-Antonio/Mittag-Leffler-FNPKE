@@ -379,7 +379,7 @@ $$C\left(0.501s\right)=1705.2439$$
 </details>
 
 ### 4.2 FNPK-ramp code
-#### 4.1 FNPK-ramp-lower code
+#### 4.2.1 FNPK-ramp-lower code
 Analytical solutions can be used to simulate cases where reactivity is function of time. In such case it is necessary to divide the time interval in smalls sub intervals, assuming a constant value of the reactivity in each of them, given by:
 
 $$\bar{\rho}=\frac{\ \rho\left(t_n\right)+\rho(t_{n-1})}{2} \tag{22}$$
@@ -442,7 +442,7 @@ vect_sol
 </p>
 </details>
 
-#### 4.2 FNPK-ramp-upper code
+#### 4.2.2 FNPK-ramp-upper code
 
 There is a shift in the data obtained by the lower ramp, because it introduces a negative reactivity for a time step different from zero. An alternative approach consists of defining the value for t=0, considering the following two additional instructions to the code. 
 
@@ -466,8 +466,8 @@ There is a shift in the data obtained by the lower ramp, because it introduces a
 
 Difference between the models can be appreciated as a shift of the values. It is worth mentioning that only the lower approach was reported in the submitted paper. 
 
-#### 4.3 Examples of applications. 
-##### 4.3.1 First example of application. 
+#### 4.2.3 Examples of applications. 
+##### 4.2.3.1 First example of application. 
 Data proposed by Amano will be used to simulate the first example of application, using the lower approach. Such data is given by:
 
 <details><summary>CLICK HERE to expand data that was used to simulate the ramp reactivity.</summary>
@@ -489,7 +489,7 @@ $$\mathrm{beta}=\beta,\mathrm{rho}=\rho,\mathrm{Lambda}=\Lambda$$
 
 We are interested in compute the neutron density and the precursor of the delayed neutron concentration at t=2, considering an alpha value of alpha = 0.8, a time step of h=0.01 and ten terms of the sum. Therefore, we have the following Input and Output values:
 
-<details><summary>CLICK HERE to expand the Input and Ouputs of the example</summary>
+<details><summary>CLICK HERE to expand the Input and Ouputs of the first example using the lower approach</summary>
 <p>
 
 The input is given by
@@ -522,4 +522,8 @@ and the output (listing the last 10 values) are given by
 
 </p>
 </details>
- 
+
+### 4.2 FNPK-feedback reactivity code
+It is possible to use the analytical solution to approximate the solution of Eq.(1) and Eq.(2) for feedback reactivities where:
+
+$$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau$$
