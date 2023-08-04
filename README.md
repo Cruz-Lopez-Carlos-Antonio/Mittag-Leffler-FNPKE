@@ -492,6 +492,8 @@ We are interested in compute the neutron density and the precursor of the delaye
 <details><summary>CLICK HERE to expand the Input and Ouputs of the example</summary>
 <p>
 
+```MATLAB
+
 %---------------------Calling the function----------------------------
 %first parameter = Target time
 %second parameter = step
@@ -501,7 +503,7 @@ We are interested in compute the neutron density and the precursor of the delaye
 ramp_reactivity(2,0.01,0.8,10)
 %---------------------------------------------------------------------
  
-```MATLAB
+```
 
 </p>
 </details>
