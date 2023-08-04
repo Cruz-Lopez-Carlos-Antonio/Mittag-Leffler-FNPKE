@@ -530,9 +530,9 @@ $$\rho\left(t\right)=at-b\int_{0}^{t}n\left(\tau\right)d\tau \tag{26}$$
 
 where:
 
-$$at=\mathrm{term\mathrm{\} \ related\ to\ the\ impressed\ reactivity},$$
+$$at=\mathrm{term\ related\ to\ the\ impressed\ reactivity},$$
 
-$$b=\mathrm{term\mathrm{\} \ related\ to\ the\ shutdown\ coefficient}$$
+$$b=\mathrm{term\ related\ to\ the\ shutdown\ coefficient}$$
 
 
 In such case it is necessary to divide the time interval in subintervals, and approximate the last integral as follows:
