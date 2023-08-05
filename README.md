@@ -540,7 +540,8 @@ In such case it is necessary to divide the time interval in subintervals, and ap
 
 $$\rho(h)=\rho(0)+h(a-b\cdot\ n(0)) \tag{27}$$
 
-## 5. Python Auxiliary Algorithm
+## 5. Python Auxiliary Algorithms
+### 5.1 General case.
 The submitted paper contains a comparison between the fractional analytical solution and the integer one. This last corresponds to the solution of the following differential equation system:
 
 $$\frac{dn\left(t\right)}{dt}=\frac{\rho-\beta}{\Lambda}n\left(t\right)+\lambda\ C\left(t\right), \tag{27}$$
@@ -555,4 +556,8 @@ $$C(t)=\frac{\beta}{\Lambda}\sum_{i=1}^{2}\frac{\left(n\left(0\right)\left(r_i+\
 
 where:
 
-$$r_{1,2}=\pm\sqrt{\left(\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}\right)^2+\frac{\lambda\rho}{\Lambda}}-\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}$$
+$$r_{1,2}=\pm\sqrt{\left(\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}\right)^2+\frac{\lambda\rho}{\Lambda}}-\frac{\lambda\Lambda-\rho+\beta}{2\Lambda} \tag{31}$$
+
+Such solution is a particular case of the general solution reported in a previous work [8]. 
+### 5.2 Feedback reactivity.
+
