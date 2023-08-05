@@ -546,3 +546,7 @@ The submitted paper contains a comparison between the fractional analytical solu
 $$\frac{dn\left(t\right)}{dt}=\frac{\rho-\beta}{\Lambda}n\left(t\right)+\lambda\ C\left(t\right), \tag{27}$$
 
 $$\frac{dC\left(t\right)}{dt}=\frac{\beta n\left(t\right)}{\Lambda}-\lambda\ C\left(t\right) \tag{28}$$
+
+wich can be written as:
+
+$$n\left(t\right)=\sum_{i=1}^{2}\frac{\left(n\left(0\right)\left(r_i+\lambda\right)+\lambda C\left(0\right)\right)}{2\left(r_i\right)+\left(\frac{\lambda\Lambda-\rho+\beta}{\Lambda}\right)}\exp\funcapply(r_it)$$
