@@ -533,7 +533,7 @@ where:
 
 $$at=\mathrm{term\ related\ to\ the\ impressed\ reactivity},$$
 
-$$b=\mathrm{term\ related\ to\ the\ shutdown\ coefficient}$$
+$$b=\mathrm{term\ related\ to\ the\ shutdown\ coefficient}.$$
 
 
 In such case it is necessary to divide the time interval in subintervals, and approximate the last integral as follows:
