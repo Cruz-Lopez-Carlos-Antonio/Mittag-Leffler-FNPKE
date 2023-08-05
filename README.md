@@ -539,3 +539,10 @@ $$b=\mathrm{term\ related\ to\ the\ shutdown\ coefficient}.$$
 In such case it is necessary to divide the time interval in subintervals, and approximate the last integral as follows:
 
 $$\rho(h)=\rho(0)+h(a-b\cdot\ n(0)) \tag{27}$$
+
+## 5. Python Auxiliary Algorithm
+The submitted paper contains a comparison between the fractional analytical solution and the integer one. This last corresponds to the solution of the following differential equation system:
+
+$$\frac{dn\left(t\right)}{dt}=\frac{\rho-\beta}{\Lambda}n\left(t\right)+\lambda\ C\left(t\right), \tag{27}$$
+
+$$\frac{dC\left(t\right)}{dt}=\frac{\beta n\left(t\right)}{\Lambda}-\lambda\ C\left(t\right) \tag{28}$$
