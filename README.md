@@ -549,4 +549,6 @@ $$\frac{dC\left(t\right)}{dt}=\frac{\beta n\left(t\right)}{\Lambda}-\lambda\ C\l
 
 wich can be written as:
 
-$$n\left(t\right)=\sum_{i=1}^{2}\frac{\left(n\left(0\right)\left(r_i+\lambda\right)+\lambda C\left(0\right)\right)}{2\left(r_i\right)+\left(\frac{\lambda\Lambda-\rho+\beta}{\Lambda}\right)}\exp(r_it)$$
+$$n\left(t\right)=\sum_{i=1}^{2}\frac{\left(n\left(0\right)\left(r_i+\lambda\right)+\lambda C\left(0\right)\right)}{2\left(r_i\right)+\left(\frac{\lambda\Lambda-\rho+\beta}{\Lambda}\right)}\exp(r_it) \tag{29}$$
+
+$$C(t)=\frac{\beta}{\Lambda}\sum_{i=1}^{2}\frac{\left(n\left(0\right)\left(r_i+\lambda\right)+\lambda C\left(0\right)\right)}{2\left(r_i\right)+\left(\frac{\lambda\Lambda-\rho+\beta}{\Lambda}\right)}\ \frac{e^{r_it}-e^{-\lambda t}}{r_i+\lambda}+C\left(0\right)e^{-\lambda t}$$
