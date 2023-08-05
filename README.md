@@ -493,7 +493,7 @@ We are interested in compute the neutron density and the precursor of the delaye
 <details><summary>CLICK HERE to expand the Input and Ouputs of the first example using the lower approach</summary>
 <p>
 
-The input is given by
+INPUT:
 ```MATLAB
 
 %---------------------Calling the function----------------------------
@@ -506,7 +506,7 @@ ramp_reactivity(2,0.01,0.8,10)
 %---------------------------------------------------------------------
  
 ```
-and the output (listing the last 10 values) are given by
+OUTPUT (console and listing the last 10 values):
 
 ```
    1.910000000000000   1.112053549290536  32.184632586687187
