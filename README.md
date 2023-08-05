@@ -559,6 +559,7 @@ where:
 $$r_{1,2}=\pm\sqrt{\left(\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}\right)^2+\frac{\lambda\rho}{\Lambda}}-\frac{\lambda\Lambda-\rho+\beta}{2\Lambda} \tag{31}$$
 
 Such solution is a particular case of the general solution reported in a previous work [8]. 
-### 5.2 Feedback reactivity integer case.
+### 5.2 Python code for ramp reactivity (integer case).
+The code P-Ramp reactivity, writting in Python language, solves the system given in (27) and (28)  using the same procedure to the one described in Section 4.2. 
 
 
