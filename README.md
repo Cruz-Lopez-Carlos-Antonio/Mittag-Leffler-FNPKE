@@ -559,5 +559,6 @@ where:
 $$r_{1,2}=\pm\sqrt{\left(\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}\right)^2+\frac{\lambda\rho}{\Lambda}}-\frac{\lambda\Lambda-\rho+\beta}{2\Lambda} \tag{31}$$
 
 Such solution is a particular case of the general solution reported in a previous work [8]. 
-### 5.2 Feedback reactivity.
+### 5.2 Feedback reactivity integer case.
+
 
