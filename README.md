@@ -562,4 +562,6 @@ Such solution is a particular case of the general solution reported in a previou
 ### 5.2 Python code for ramp reactivity (integer case).
 The code P-Ramp reactivity, writting in Python language, solves the system given in (27) and (28)  using the same procedure to the one described in Section 4.2. 
 
+## 6. References.
+[1] Podlubny, I. 1999. Fractional Differential Equations. An Introduction to Fractional Derivatives, Fractional Differential Equations, to Methods of their Solution and Some of Their Applications. Mathematics in Science and Engineering. Vol. 198. Academic Press.
 
