@@ -565,4 +565,8 @@ The code P-Ramp reactivity, writting in Python language, solves the system given
 ## 6. References.
 [1] Podlubny, I. 1999. Fractional Differential Equations. An Introduction to Fractional Derivatives, Fractional Differential Equations, to Methods of their Solution and Some of Their Applications. Mathematics in Science and Engineering. Vol. 198. Academic Press.
 
-[2] Hu, Y., Luo, Y., Lu, Z. 2008. Analytical Solution of the Linear Fractional Differential Equation by Adomian Decomposition Method. Journal of Computational and Applied Mathematics. Vol. 215 (1), 220-229. https://doi.org/10.1016/j.cam.2007.04.005 
+[2] Hu, Y., Luo, Y., Lu, Z. 2008. Analytical Solution of the Linear Fractional Differential Equation by Adomian Decomposition Method. Journal of Computational and Applied Mathematics. Vol. 215 (1), 220-229. [https://doi.org/10.1016/j.cam.2007.04.005](https://doi.org/10.1016/j.cam.2007.04.005) 
+
+[3] Gorenflo, R., Kilbas, A. A., Mainardi, F., Rogosin, S. 2020. Mittag-Leffler Functions, Related Topics and Applications. Springer, second edition. https://doi.org/10.1007/978-3-662-61550-8 
+
+
