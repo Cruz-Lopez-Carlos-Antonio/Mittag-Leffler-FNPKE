@@ -540,7 +540,7 @@ In such case it is necessary to divide the time interval in subintervals, and ap
 
 $$\rho(h)=\rho(0)+h(a-b\cdot\ n(0)) \tag{27}$$
 
-## 5. Python Auxiliary Algorithms
+## 5. Python's Auxiliary Algorithms
 ### 5.1 General case.
 The submitted paper contains a comparison between the fractional analytical solution and the integer one. This last corresponds to the solution of the following differential equation system:
 
@@ -565,3 +565,4 @@ The code P-Ramp reactivity, writting in Python language, solves the system given
 ## 6. References.
 [1] Podlubny, I. 1999. Fractional Differential Equations. An Introduction to Fractional Derivatives, Fractional Differential Equations, to Methods of their Solution and Some of Their Applications. Mathematics in Science and Engineering. Vol. 198. Academic Press.
 
+[2] Hu, Y., Luo, Y., Lu, Z. 2008. Analytical Solution of the Linear Fractional Differential Equation by Adomian Decomposition Method. Journal of Computational and Applied Mathematics. Vol. 215 (1), 220-229. https://doi.org/10.1016/j.cam.2007.04.005 
