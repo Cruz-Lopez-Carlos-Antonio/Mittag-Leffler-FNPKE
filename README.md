@@ -469,7 +469,7 @@ Difference between the models can be appreciated as a shift of the values. It is
 
 #### 4.2.3 Examples of applications. 
 ##### 4.2.3.1 First example of application. 
-Data proposed by Amano will be used to simulate the first example of application, using the lower approach. Such data is given by:
+Data proposed by Amano [6]  will be used to simulate the first example of application, using the lower approach. Such data is given by:
 
 <details><summary>CLICK HERE to expand data that was used to simulate the ramp reactivity.</summary>
 <p>
