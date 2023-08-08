@@ -183,7 +183,7 @@ The FPNK-Insertion code, written in MATLAB language, solves the system given in 
 $$\left(\frac{t}{\tau}\right)^\alpha<80.42 \tag{20}$$
 
 #### 4.1.1 First example of application. 
-FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarrios et al. [6]. For such task the following data was used:
+FNPK-Insertion code was used to reproduce data that was reported by Polo-Labarrios et al. [5]. For such task the following data was used:
 
 <details><summary>CLICK HERE to expand the parameters that were used to the first comparison.</summary>
 <p>
@@ -570,3 +570,7 @@ The code P-Ramp reactivity, writting in Python language, solves the system given
 [3] Gorenflo, R., Kilbas, A. A., Mainardi, F., Rogosin, S. 2020. Mittag-Leffler Functions, Related Topics and Applications. Springer, second edition. https://doi.org/10.1007/978-3-662-61550-8 
 
 [4] Garrappa, R. 2015. Numerical Evaluation of Two and Three Parameter Mittag-Leffler Functions. SIAM Journal of Numerical Analysis. Vol. 53 (3), 1350-1369. https://doi.org/10.1137/140971191 
+
+[5] Polo-Labarrios, M. A., Godínez, F.A., Quezada-García, S. 2022. Numerical-analytical Solutions of the Fractional Point Kinetic Model with Caputo Derivatives. Annals of Nuclear Energy. Vol. 166, 108745. https://doi.org/10.1016/j.anucene.2021.108745 
+
+
