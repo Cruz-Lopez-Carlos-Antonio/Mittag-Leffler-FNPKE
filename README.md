@@ -573,4 +573,4 @@ The code P-Ramp reactivity, writting in Python language, solves the system given
 
 [5] Polo-Labarrios, M. A., Godínez, F.A., Quezada-García, S. 2022. Numerical-analytical Solutions of the Fractional Point Kinetic Model with Caputo Derivatives. Annals of Nuclear Energy. Vol. 166, 108745. https://doi.org/10.1016/j.anucene.2021.108745 
 
-
+[6] Amano, F. 1969. Approximate Solution of One-Point Reactor Kinetic Equations for Arbitrary Reactivities. Journal of Nuclear Science and Technology. Vol. 6 (11), 646-656. https://doi:10.1080/18811248.1969.9732963 
