@@ -558,7 +558,7 @@ where:
 
 $$r_{1,2}=\pm\sqrt{\left(\frac{\lambda\Lambda-\rho+\beta}{2\Lambda}\right)^2+\frac{\lambda\rho}{\Lambda}}-\frac{\lambda\Lambda-\rho+\beta}{2\Lambda} \tag{31}$$
 
-Such solution is a particular case of the general solution reported in a previous work [8]. 
+Such solution is a particular case of the general solution reported in a previous work [7]. 
 ### 5.2 Python code for ramp reactivity (integer case).
 The code P-Ramp reactivity, writting in Python language, solves the system given in (27) and (28)  using the same procedure to the one described in Section 4.2. 
 
@@ -574,3 +574,5 @@ The code P-Ramp reactivity, writting in Python language, solves the system given
 [5] Polo-Labarrios, M. A., Godínez, F.A., Quezada-García, S. 2022. Numerical-analytical Solutions of the Fractional Point Kinetic Model with Caputo Derivatives. Annals of Nuclear Energy. Vol. 166, 108745. https://doi.org/10.1016/j.anucene.2021.108745 
 
 [6] Amano, F. 1969. Approximate Solution of One-Point Reactor Kinetic Equations for Arbitrary Reactivities. Journal of Nuclear Science and Technology. Vol. 6 (11), 646-656. https://doi:10.1080/18811248.1969.9732963 
+
+[7] Cruz-López, C.-A., Espinosa-Paredes, G., François, J.-L. 2023. A New Simplified Analytical Solution to Solve the Neutron Point Kinetics Equations Using the Laplace Transform Method. Computer Physics Communications. Vol. 283, 108564. https://doi.org/10.1016/j.cpc.2022.108564 
