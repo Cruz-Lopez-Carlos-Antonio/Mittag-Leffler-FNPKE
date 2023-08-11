@@ -520,7 +520,7 @@ OUTPUT (console and listing the last 10 values):
    1.990000000000000   1.118038679653578  32.203707150692679
    2.000000000000000   1.118901364222842  32.206509778295207
 ```
-
+As it can be observed, the last point (t=2.0) corresponds to the values that are reported in Table 16 of the paper. 
 </p>
 </details>
 
