@@ -1,6 +1,5 @@
-#Auxiliary code to solve the Point Kinetic Equations
-#considering a single group of precursors, mentioned in
-# Section 6.3
+#Auxiliary code to solve the Point Kinetic Equations for a ramp reactivity
+#considering a single group of precursors, mentioned in Section 6.3
 
 import math
 
