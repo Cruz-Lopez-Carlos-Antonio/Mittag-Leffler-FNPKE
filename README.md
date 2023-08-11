@@ -468,7 +468,7 @@ There is a shift in the data obtained by the lower ramp, because it introduces a
 Difference between the models can be appreciated as a shift of the values. It is worth mentioning that only the lower approach was reported in the submitted paper. 
 
 #### 4.2.3 Examples of applications. 
-##### 4.2.3.1 First example of application. 
+##### 4.2.3.1 First example of application using the lower approximation
 Data proposed by Amano [6]  will be used to simulate the first example of application, using the lower approach. Such data is given by:
 
 <details><summary>CLICK HERE to expand data that was used to simulate the ramp reactivity.</summary>
@@ -521,6 +521,15 @@ OUTPUT (console and listing the last 10 values):
    2.000000000000000   1.118901364222842  32.206509778295207
 ```
 As it can be observed, the last point (t=2.0) corresponds to the values that are reported in Table 16 of the paper. 
+</p>
+</details>
+
+##### 4.2.3.2 Second example of application, using the upper approximation
+
+Using the same parameters that were used in the past case, it is possible to solve the problem using an upper approximation, where a shift in the time data is introduced. The OUTPUT data is given in the following link:
+
+<details><summary>CLICK HERE to expand the Ouput of the second example using the upper approach</summary>
+<p>
 </p>
 </details>
 
