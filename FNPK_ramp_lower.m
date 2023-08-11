@@ -61,16 +61,17 @@ malla = ceil(final_time/step);
 paso=step;
 for i=0:malla
     i
-    n_i = n_0;
-    c_i=C_0;
    
-    %Lower approax where the first point includes a time step
+    rho = (ramp*(i-1)*paso+ramp*(i-2)*paso)/2;
+    if i==0
+        n_f = solution_neutrons(0,n_0,C_0,order,approx,rho);
+        c_f = solution_precursors(0,n_0,C_0,order,approx,i,rho);
+    else
+        n_f = solution_neutrons(paso,n_0,C_0,order,approx,rho);
+        c_f = solution_precursors(paso,n_0,C_0,order,approx,i,rho);
+    end
     
-    rho = (ramp*i*paso+ramp*(i-1)*paso)/2;
-
     
-    n_f = solution_neutrons(paso,n_0,C_0,order,approx,rho);
-    c_f = solution_precursors(paso,n_0,C_0,order,approx,i,rho);
     n_0=n_f;
     C_0=c_f;
     
